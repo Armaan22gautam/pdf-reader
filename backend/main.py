@@ -1,5 +1,8 @@
 import os
 import shutil
+"""
+Main entry point for the PDF-Reader FastAPI backend.
+"""
 from fastapi import FastAPI, UploadFile, File, HTTPException
 from pydantic import BaseModel
 from rag_engine import process_document, answer_question
