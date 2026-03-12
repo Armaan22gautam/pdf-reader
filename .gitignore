@@ -1,0 +1,7 @@
+venv/
+.env
+__pycache__/
+*.pyc
+backend/uploads/
+backend/faiss_index/
+models_out.txt
